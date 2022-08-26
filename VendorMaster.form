@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Vendor Master"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane2" alignment="0" pref="1467" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane2" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="166" max="-2" attributes="0"/>
+                      <Component id="btn_createVendor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btn_findVendor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btn_updateVendor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btn_deleteVendor" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btn_cancel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="31" pref="31" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="lbl_ledgerCrCode" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="txt_vendorCode" min="-2" pref="88" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="lbl_ledgerCrName" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                      <Component id="txt_ledgerCode" min="-2" pref="113" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_ledgerCrCode2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_ledgerCrCode1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txt_vendorName" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                              <Component id="txt_vendorType" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_ledgerCrCode3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_ledgerCrCode4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="txt_proprietorName" max="32767" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" attributes="0">
+                                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                              <Component id="txt_aadhar" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lbl_ledgerCrCode41" min="-2" max="-2" attributes="0"/>
+                                          <Component id="lbl_ledgerCrCode47" min="-2" pref="136" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="1" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Component id="lbl_ledgerCrCode54" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="lbl_ledgerCrCode55" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="lbl_ledgerCrCode60" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="txt_TDSCode" pref="120" max="32767" attributes="0"/>
+                                                                  <Component id="txt_GSTCode" max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode56" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                              <Component id="txt_TDSRate" min="-2" pref="98" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" attributes="0">
+                                                              <Component id="txt_branchCode" min="-2" pref="64" max="-2" attributes="0"/>
+                                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode61" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="txt_department" min="-2" pref="72" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="lbl_ledgerCrCode50" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="lbl_ledgerCrCode49" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="lbl_ledgerCrCode53" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace max="32767" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="txt_contactPersonEmalId" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                                                  <Component id="txt_contactPersonMobileNo" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                                                  <Component id="txt_natureOfVendor" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="102" alignment="1" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode48" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="txt_contactPersonName" min="-2" pref="206" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode44" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode43" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode42" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="txt_emailId" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                                                  <Component id="txt_mobileNo" alignment="1" min="-2" pref="206" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="txt_telephoneNo" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
+                                                      <Component id="lbl_ledgerCrCode57" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="txt_basic" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="lbl_ledgerCrCode58" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txt_ec" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                      <Component id="lbl_ledgerCrCode59" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Component id="txt_shec" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="102" attributes="0">
+                                                      <EmptySpace max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="0" attributes="0">
+                                                          <Group type="102" attributes="0">
+                                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                                  <Component id="lbl_ledgerCrCode46" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="lbl_ledgerCrCode45" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                                  <Component id="txt_website" pref="202" max="32767" attributes="0"/>
+                                                                  <Component id="txt_faxNo" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode51" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                                              <Component id="txt_contactPersonDesignation" min="-2" pref="206" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode52" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="txt_contactPersonTelephoneNo" min="-2" pref="206" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="102" alignment="0" attributes="0">
+                                                              <Component id="txt_segment" min="-2" pref="97" max="-2" attributes="0"/>
+                                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode63" min="-2" max="-2" attributes="0"/>
+                                                              <EmptySpace max="-2" attributes="0"/>
+                                                              <Component id="txt_product" min="-2" pref="73" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Component id="lbl_ledgerCrCode20" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbl_ledgerCrCode5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                          <Component id="lbl_ledgerCrCode40" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="checkBox_currentAddress" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="checkBox_registeredOfficetAddress" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="checkBox_both" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="lbl_ledgerCrCode23" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="lbl_ledgerCrCode22" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="395" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode29" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode34" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode38" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="122" max="-2" attributes="0"/>
+                                                                  <Component id="txt_flatDoorBlockNo" min="-2" pref="303" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="66" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="lbl_ledgerCrCode31" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                                          <Component id="checkBox_sameAsRegisteredAddress" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="lbl_ledgerCrCode24" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode25" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode28" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode30" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode35" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode37" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="lbl_ledgerCrCode39" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                              <Component id="txt_currentPinCode" alignment="0" pref="303" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentCountry" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentState" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentCityDistrict" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentTaluka" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentAreaLocality" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentBuildingVillage" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentNameOfPremises" alignment="0" max="32767" attributes="0"/>
+                                                              <Component id="txt_currentFlatDoorBlockNo" alignment="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="checkBox_partnershipFirm" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_individualProprietorship" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_boi" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_trust" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_aop" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_huf" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_personCategoryAsPerIncomeTax" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="checkBox_company" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                                  <Component id="jLabel1" min="-2" pref="249" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="lbl_ledgerCrCode21" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txt_nameOfPremises" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_buildingVillage" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_areaLocality" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_taluka" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_cityDistrict" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_state" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_country" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                          <Component id="txt_pinCode" alignment="0" min="-2" pref="303" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
+                              <Component id="lbl_ledgerCrCode62" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="588" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="3" pref="3" max="-2" attributes="0"/>
+                                      <Component id="lbl_ledgerCrCode" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="txt_vendorCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lbl_ledgerCrName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="txt_ledgerCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_vendorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txt_vendorType" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_proprietorName" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_aadhar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="checkBox_personCategoryAsPerIncomeTax" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="checkBox_company" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                              <Component id="checkBox_partnershipFirm" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="checkBox_individualProprietorship" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="checkBox_boi" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="checkBox_trust" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="checkBox_aop" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="checkBox_huf" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel1" min="-2" pref="206" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="lbl_ledgerCrCode5" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_ledgerCrCode20" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode31" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="checkBox_sameAsRegisteredAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_flatDoorBlockNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode24" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_nameOfPremises" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode25" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_buildingVillage" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode26" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_areaLocality" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode28" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_taluka" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode30" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_cityDistrict" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode33" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_state" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode35" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode36" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_country" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode37" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode38" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_pinCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode39" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="txt_currentFlatDoorBlockNo" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentNameOfPremises" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentBuildingVillage" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentAreaLocality" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentTaluka" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentCityDistrict" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentState" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentCountry" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                              <Component id="txt_currentPinCode" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkBox_registeredOfficetAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkBox_currentAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkBox_both" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode40" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbl_ledgerCrCode41" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode42" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_telephoneNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode43" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_mobileNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode44" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_emailId" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode45" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_faxNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="34" pref="34" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="lbl_ledgerCrCode46" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_website" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="lbl_ledgerCrCode47" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_ledgerCrCode48" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_contactPersonName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode51" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_contactPersonDesignation" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_ledgerCrCode49" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_contactPersonMobileNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode52" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_contactPersonTelephoneNo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_ledgerCrCode50" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_contactPersonEmalId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lbl_ledgerCrCode53" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_natureOfVendor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lbl_ledgerCrCode54" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode56" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="txt_TDSRate" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_ledgerCrCode57" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_ec" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_ledgerCrCode58" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_shec" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbl_ledgerCrCode59" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_basic" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="txt_TDSCode" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="txt_GSTCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lbl_ledgerCrCode55" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txt_branchCode" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode60" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode61" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_department" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode62" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_segment" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lbl_ledgerCrCode63" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_product" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btn_updateVendor" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn_cancel" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn_findVendor" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn_deleteVendor" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="btn_createVendor" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="51" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vendor Code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrName">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Calibri" size="14" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Ledger"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_vendorCode">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_ledgerCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name of Vendor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_vendorName">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vendor Type"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_vendorType">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Proprietor Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_proprietorName">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Aadhar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Communication Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Registered Office Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode21">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Flat/Door/Block no."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_flatDoorBlockNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode22">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name of Premises"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_nameOfPremises">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode23">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Building/Village"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_buildingVillage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode24">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Flat/Door/Block no."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentFlatDoorBlockNo">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_currentFlatDoorBlockNoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode25">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Name of Premises"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentNameOfPremises">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode26">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Building/Village"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentBuildingVillage">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode27">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Area/Locality"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_areaLocality">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode28">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Area/Locality"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentAreaLocality">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode29">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taluka"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_taluka">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode30">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Taluka"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentTaluka">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Current Office Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode32">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/District"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_cityDistrict">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode33">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="City/District"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentCityDistrict">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode34">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_state">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode35">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="State"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentState">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode36">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_country">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode37">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Country"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentCountry">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode38">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pin code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_pinCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode39">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pin code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_currentPinCode">
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_sameAsRegisteredAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="same as registered address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBox_sameAsRegisteredAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode40">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Correspondance Office Address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_registeredOfficetAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Registered office address"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_currentAddress">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Current address"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkBox_currentAddressActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode41">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Contact"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode42">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Telephone no"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode43">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mobile no."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_mobileNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode44">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email id"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_emailId">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_telephoneNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode45">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Fax no."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_faxNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode46">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Website"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_website">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode47">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Segoe UI" size="12" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Contact Person Details"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode48">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Contact Person Name"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_contactPersonName">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode49">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Mobile no."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_contactPersonMobileNo">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode50">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Email id"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_contactPersonEmalId">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode51">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Designation"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_contactPersonDesignation">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_contactPersonDesignationActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode52">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Telephone no"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_contactPersonTelephoneNo">
+            </Component>
+            <Component class="javax.swing.JButton" name="btn_createVendor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Create Vendor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_createVendorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btn_findVendor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Find Vendor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_findVendorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btn_updateVendor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Update Vendor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_updateVendorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btn_deleteVendor">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete Vendor"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_deleteVendorActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="btn_cancel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cancel"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_cancelActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_both">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Both"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode53">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Nature of vendor"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_natureOfVendor">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_TDSCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode54">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="TDS code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_GSTCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode55">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="GST code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode56">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="TDS rate"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_TDSRate">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode57">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Basic"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_basic">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_basicActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode58">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="EC"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_ec">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode59">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="SHEC"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_shec">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode60">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Branch code"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_branchCode">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode61">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Department"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_department">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode62">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Segment"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_segment">
+            </Component>
+            <Component class="javax.swing.JLabel" name="lbl_ledgerCrCode63">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Product"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_product">
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_personCategoryAsPerIncomeTax">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Person Category As per Income Tax"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_company">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Company"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_partnershipFirm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Partnership Firm"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_individualProprietorship">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Individual / Proprietorship"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_boi">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Body of Individual (BOI)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_trust">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Trust"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_aop">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Association of Person (AOP)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="checkBox_huf">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Hindu Undivided Family (HUF)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+            </Component>
+            <Component class="javax.swing.JTextField" name="txt_aadhar">
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
